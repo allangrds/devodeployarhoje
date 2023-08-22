@@ -47,7 +47,7 @@ const Page: React.FC<IPage> = ({ tz, now: initialNow, initialReason }) => {
           sizes="32x32"
         />
         <meta property="og:image" content={`${getBaseUrl()}/api/og`} />
-        <title>Should I Deploy Today?</title>
+        <title>Devo deployar hoje?</title>
       </Head>
       <div className={`wrapper ${!shouldIDeploy(now) && 'its-friday'}`}>
         <Widget reason={initialReason} now={now} />

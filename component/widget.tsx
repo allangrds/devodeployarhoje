@@ -53,12 +53,12 @@ const Widget = (props: IWidget) => {
    */
   return (
     <div className="item">
-      <h3 className="tagline">Should I Deploy Today?</h3>
+      <h3 className="tagline">Devo deployar hoje?</h3>
       <h2 id="text" className="reason">
         {reason}
       </h2>
       <span id="reload" onClick={onSpacePressOrClick}>
-        Hit <span className="space-btn">Space</span> or Click
+        Aperte <span className="space-btn">Espaço</span> ou Clique
       </span>
     </div>
   )
